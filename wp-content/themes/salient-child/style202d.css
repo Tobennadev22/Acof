@@ -1,0 +1,170 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+
+/* HEADER */
+body.material #header-outer:not([data-format="left-header"]) header#top > .container > .row nav >ul > li
+{
+    align-self: flex-end;
+    padding-bottom: 36px;
+}
+
+
+.header_topbar_wrapper {
+	position: absolute;
+	width: 100%;
+	text-align: right;
+	z-index: 9999;
+	right: 120px;
+	padding-top: 30px;
+}
+.htb.button_wrapper
+{
+	border:1px solid #fff;
+	display:inline-block;
+}
+.htb_button {
+	display: inline-block;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+.htb_button:hover {background:#ff6300;}
+.htb_button.b1 {border-right:1px solid #fff}
+.htb_img_hammer
+{
+	width: 25px;
+	margin-left: 10px;
+	position: relative;
+	top: 3px;
+}
+.htb_img_close
+{
+	margin-left: 10px;
+	position: relative;
+	top: 1px;
+}
+
+
+
+/* ELEMENTS */
+
+.blueframe {	position:relative;}
+
+.blueframe.toprightthin:before {
+    box-sizing: border-box;
+	position: absolute;
+    top: -7px;
+    right: -7px;
+    border-top: 7px solid #00C0C3;
+    border-right: 7px solid #00C0C3;
+    width: 28px;
+    height: 28px;
+	z-index: 99;
+}
+
+.blueframe.topleftthin:before {
+    box-sizing: border-box;
+	position: absolute;
+    top: -7px;
+    left: -7px;
+    border-top: 7px solid #00C0C3;
+    border-left: 7px solid #00C0C3;
+    width: 28px;
+    height: 28px;
+	z-index: 99;
+}
+
+.blueframe.toprightthick:before {
+    box-sizing: border-box;
+	position: absolute;
+    top: -20px;
+    right: -20px;
+    border-top: 20px solid #00C0C3;
+    border-right: 20px solid #00C0C3;
+    width: 70px;
+    height: 70px;
+	z-index: 99;
+}
+
+.blueframe.topleftthick:before {
+    box-sizing: border-box;
+	position: absolute;
+    top: -20px;
+    left: -20px;
+    border-top: 20px solid #00C0C3;
+    border-right: 20px solid #00C0C3;
+    width: 70px;
+    height: 70px;
+	z-index: 99;
+}
+
+.blueframe.bottomleftthick:after {
+    box-sizing: border-box;
+	position: relative;
+    bottom: 50px;
+	left:-20px;
+    border-bottom: 20px solid #00C0C3;
+    border-left: 20px solid #00C0C3;
+    width: 70px;
+    height: 70px;
+    z-index: 99;
+}
+
+.blueframe.bottomrightthick:after {
+    box-sizing: border-box;
+    position: relative;
+    bottom: 50px;
+    right: -20px;
+    border-bottom: 20px solid #00C0C3;
+    border-right: 20px solid #00C0C3;
+    width: 70px;
+    height: 70px;
+    z-index: 99;
+    float: right;
+}
+
+.blueframe.bottomleftthin:after {
+    box-sizing: border-box;
+	position: relative;
+    bottom: 121px;
+    right: -7px;
+    border-bottom: 7px solid #00C0C3;
+    border-left: 7px solid #00C0C3;
+    width: 28px;
+    height: 28px;
+    z-index: 99;
+}
+
+.blueframe_imgpatch_bottomleftthik
+{
+position: relative;
+    top: 20px;
+    left: -20px;
+}
+
+/* FOOTER */
+#footer-outer .row {padding:40px 0 20px !important}
+.footer_social, .footer_social .wpb_wrapper >div {margin-bottom:0 !important}
+#footer-outer #text-5 {    margin-bottom: 0px !important;}
+.footer_social {    left: -22px;}
+.footer_address.mobile {display:none}
+
+
+/* TEAM */
+.nectar_team_member_overlay .team_member_details {
+    padding: 130px 10%;
+    margin: auto 0;
+}
+
+
+
